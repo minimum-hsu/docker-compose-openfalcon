@@ -1,0 +1,35 @@
+{
+    "log": "debug",
+    "company": "Cepave",
+    "http": {
+        "enabled": true,
+        "listen": "0.0.0.0:1234"
+    },
+    "cache": {
+        "enabled": true,
+        "redis": "redis:6379",
+        "idle": 10,
+        "max": 1000,
+        "timeout": {
+            "conn": 10000,
+            "read": 5000,
+            "write": 5000
+        }
+    },
+    "salt": "f4vfAf326hR",
+    "canRegister": true,
+    "ldap": {
+        "enabled": false,
+        "addr": "ldap.example.com:389"
+    },
+    "uic": {
+        "addr": "root:password@tcp(mysql:3306)/uic?charset=utf8&loc=Asia%2FTaipei",
+        "idle": 10,
+        "max": 100
+    },
+    "shortcut": {
+        "falconPortal": "http://192.168.1.100:5050/",
+        "falconDashboard": "http://192.168.1.100:8081/",
+        "falconAlarm": "http://192.168.1.100:9912/"
+    }
+}
