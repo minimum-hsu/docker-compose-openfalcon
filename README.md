@@ -1,7 +1,7 @@
 # docker-compose-openfalcon
 Run all Open-Falcon components in docker engine.
 
-## config
+## Config
 You need to configure two file _conf/fe.json_ and _conf/portal.py_ .
 
 In _conf/fe.json_, replace **192.168.1.100** with your host IP in line 31, 32 and 33.
