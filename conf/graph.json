@@ -1,7 +1,7 @@
 {
     "pid": "/home/graph/var/app.pid",
     "log": "info",
-    "debug": true,
+    "debug": false,
     "debugChecksum": "nil",
     "http": {
         "enabled": true,
