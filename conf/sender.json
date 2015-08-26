@@ -18,6 +18,6 @@
     },
     "api": {
         "sms": "http://sms:8000/sms",
-        "mail": "http://mail:9000/mail"
+        "mail": "http://smtp:9000/mail"
     }
 }

@@ -14,7 +14,7 @@
     },
     "monitor" : {
         "enabled": true,
-        "mailUrl" : "http://mail:9000/mail",
+        "mailUrl" : "http://smtp:9000/mail",
         "mailTos" : "minimum@cepave.com",
         "cluster" : [
             "transfer,transfer:6060/health",
