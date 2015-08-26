@@ -47,8 +47,8 @@ dashboard:
 links:
   container_name: links
   image: minimum/openfalcon-links
-  expose:
-    - "5090"
+  ports:
+    - "5090:5090"
   volumes:
     - ./conf/links.py:/config/config.py:ro
   external_links:

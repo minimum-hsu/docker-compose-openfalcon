@@ -27,8 +27,8 @@
         "userMailQueue": "/queue/user/mail"
     },
     "api": {
-        "portal": "http://portal:5050",
-        "uic": "http://fe:1234",
-        "links": "http://links:5090"
+        "portal": "http://192.168.1.100:5050",
+        "uic": "http://192.168.1.100:1234",
+        "links": "http://192.168.1.100:5090"
     }
 }
