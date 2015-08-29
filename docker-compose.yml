@@ -138,7 +138,7 @@ task:
   container_name: task
   image: minimum/openfalcon-task
   expose:
-    - "8001"
+    - "8002"
   volumes:
     - ./conf/task.json:/config/cfg.json:ro
   external_links:
