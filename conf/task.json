@@ -2,24 +2,15 @@
     "debug": false,
     "http": {
         "enabled": true,
-        "listen": "0.0.0.0:8001"
+        "listen": "0.0.0.0:8002"
     },
     "index": {
         "enabled": true,
         "dsn": "root:password@tcp(mysql:3306)/graph?loc=Local&parseTime=true",
         "maxIdle": 4,
         "cluster":[
-            "graph:6071"
+            "graph:6071" : "0 0 0 ? * 0-5"
             ]
-    },
-    "monitor" : {
-        "enabled": true,
-        "mailUrl" : "http://smtp:9000/mail",
-        "mailTos" : "minimum@cepave.com",
-        "cluster" : [
-            "transfer,transfer:6060/health",
-            "graph,graph:6071/health"
-        ]
     },
     "collector":{
         "enabled": true,
