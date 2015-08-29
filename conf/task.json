@@ -19,7 +19,7 @@
         "cluster" : [
             "transfer,transfer:6060",
             "graph,graph:6071",
-            "task,127.0.0.1:8001"
+            "task,127.0.0.1:8002"
         ]
     }
 }
