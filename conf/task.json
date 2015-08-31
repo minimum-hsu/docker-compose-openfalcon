@@ -8,9 +8,9 @@
         "enabled": true,
         "dsn": "root:password@tcp(mysql:3306)/graph?loc=Local&parseTime=true",
         "maxIdle": 4,
-        "cluster": [
+        "cluster": {
             "graph:6071": "0 0 0 ? * 0-5"
-        ]
+        }
     },
     "collector":{
         "enabled": true,
