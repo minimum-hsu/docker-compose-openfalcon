@@ -1,11 +1,11 @@
 {
     "debug": false,
     "http": {
-        "enabled": true,
+        "enable": true,
         "listen": "0.0.0.0:8002"
     },
     "index": {
-        "enabled": true,
+        "enable": true,
         "dsn": "root:password@tcp(mysql:3306)/graph?loc=Local&parseTime=true",
         "maxIdle": 4,
         "autoDelete": true,
