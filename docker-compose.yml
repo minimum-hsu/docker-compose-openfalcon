@@ -25,7 +25,7 @@ transfer:
   expose:
     - "6060"
   ports:
-    - "8443:8443"
+    - "8433:8433"
   volumes:
     - ./conf/transfer.json:/config/cfg.json:ro
   links:
