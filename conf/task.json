@@ -8,12 +8,13 @@
         "enabled": true,
         "dsn": "root:password@tcp(mysql:3306)/graph?loc=Local&parseTime=true",
         "maxIdle": 4,
+        "autoDelete": true,
         "cluster": {
             "graph:6071": "0 0 0 ? * 0-5"
         }
     },
     "collector":{
-        "enabled": true,
+        "enable": true,
         "destUrl" : "http://agent:1988/v1/push",
         "srcUrlFmt" : "http://%s/statistics/all",
         "cluster" : [
