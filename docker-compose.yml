@@ -15,7 +15,7 @@ query:
   expose:
     - "9966"
   volumes:
-    - ./conf/graph_backends.txt:/config/graph_backends.txt:ro
+    - ./conf/query.json:/config/cfg.json:ro
   links:
     - graph
 
